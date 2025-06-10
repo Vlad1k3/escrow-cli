@@ -1,0 +1,11 @@
+[package]
+name = "escrow-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-client = "1.18.0"  # Синхронная версия
+solana-sdk = "1.18.0"
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+bs58 = "0.5"
